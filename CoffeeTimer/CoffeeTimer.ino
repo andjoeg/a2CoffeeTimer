@@ -1,7 +1,7 @@
 #include <TM1637Display.h>
 
-#define CLK 2
-#define DIO 3
+#define CLK 2 //7-seg pin
+#define DIO 3 //7-seg pin
 #define BUTTON 4
 
 TM1637Display display(CLK, DIO);
